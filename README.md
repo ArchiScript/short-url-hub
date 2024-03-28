@@ -1,46 +1,9 @@
-This will be URL shortener service
+# Short-url-hub
+### php mysql oop
 
-Our team:
-Sergey Andronov
-Artur Skomarohov
-
+ ![GitHub last commit](https://img.shields.io/github/last-commit/ArchiScript/short-url-hub) ![GitHub top language](https://img.shields.io/github/languages/top/ArchiScript/short-url-hub) ![Static Badge](https://img.shields.io/badge/tech_stack-php_%2F_mysql_%2F_js_%2F_css-orange)
 
 
-**Задание 1.**
-Нужно создать MVP-концепт фичи:
- - пользователь видит инструкцию и форму
- - пользователь вводит свой URL, нажимает "далее"
- - пользователь видит результат работы формы, там короткая ссылка
- - переходя по короткой ссылке, пользователя редиректит на его URL
+## Description
 
-**Ход решения**
-
-создаём /index.php, /link.php, /go.php
-
-_index.php_ - пишет инструкцию, рисует форму (action=link.php, type=get), где можно ввести ссылку.
-
-_link.php_ - проверка полученной ссылки на существование в содержимом файлов, если да то показ существующего результата. Иначе, создание рандомной строки, проверка что такая строка не существует в именах файлов. Если существует то ещё раз генерируем. Иначе, создаём файл с именем рандомной строки, содержит ссылку клиента.
-
-_go.php_ - получает короткую ссылку, делает редирект на 404 или на ссылку клиента.
-
-_/data/_ - каталог который заменяет собой базу данных.
-
-Формат index.php
-```
-Введите свою ссылку ниже и мы создадим для вас короткую версию, которую легко передать другу:
-
-[form]
-[Поле для ввода ссылки]
-
-[Кнопка "Создать короткую ссылку"]
-[/form]
-
-После нажатия на кнопку, Вы увидите результат.
-```
-
-Формат link.php
-```
-Ваша ссылка готова.
-[URL]
-```
-
+Short-URL-Hub is a web application designed to simplify the process of shortening URLs and sharing them with other users. Leveraging PHP, MySQL, and JavaScript technologies, Short-URL-Hub offers a user-friendly interface for generating short links and managing them effectively.
