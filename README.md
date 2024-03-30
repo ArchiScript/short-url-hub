@@ -7,3 +7,10 @@
 ## Description
 
 Short-URL-Hub is a web application designed to simplify the process of shortening URLs and sharing them with other users. Leveraging PHP, MySQL, and JavaScript technologies, Short-URL-Hub offers a user-friendly interface for generating short links and managing them effectively.
+
+Analyses of short URLs requested from current IP and current session are provided for testing purposes.
+
+## Reference
+**[Watch Short-url-hub][ref]**
+
+[ref]: https://short-url.arttyr.ru
